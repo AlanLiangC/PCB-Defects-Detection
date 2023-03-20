@@ -1,0 +1,72 @@
+2023-03-19 07:37:48,308 INFO    MainThread:692499 [internal.py:wandb_internal():90] W&B internal server running at pid: 692499, started at: 2023-03-19 07:37:48.307719
+2023-03-19 07:37:48,323 INFO    WriterThread:692499 [datastore.py:open_for_write():75] open: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/run-1f1j0k4e.wandb
+2023-03-19 07:37:48,326 DEBUG   SenderThread:692499 [sender.py:send():235] send: header
+2023-03-19 07:37:48,327 DEBUG   SenderThread:692499 [sender.py:send():235] send: run
+2023-03-19 07:37:48,354 INFO    SenderThread:692499 [sender.py:_maybe_setup_resume():492] checking resume status for None/YOLOv5/1f1j0k4e
+2023-03-19 07:37:49,603 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: check_version
+2023-03-19 07:37:49,606 INFO    SenderThread:692499 [dir_watcher.py:__init__():205] watching files in: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files
+2023-03-19 07:37:49,606 INFO    SenderThread:692499 [sender.py:_start_run_threads():812] run started: 1f1j0k4e with start time 1679211466
+2023-03-19 07:37:49,606 DEBUG   SenderThread:692499 [sender.py:send():235] send: summary
+2023-03-19 07:37:49,607 INFO    SenderThread:692499 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2023-03-19 07:37:49,608 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: check_version
+2023-03-19 07:37:50,342 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: run_start
+2023-03-19 07:37:50,353 DEBUG   HandlerThread:692499 [meta.py:__init__():35] meta init
+2023-03-19 07:37:50,354 DEBUG   HandlerThread:692499 [meta.py:__init__():49] meta init done
+2023-03-19 07:37:50,354 DEBUG   HandlerThread:692499 [meta.py:probe():209] probe
+2023-03-19 07:37:50,362 DEBUG   HandlerThread:692499 [meta.py:_setup_git():199] setup git
+2023-03-19 07:37:50,386 DEBUG   HandlerThread:692499 [meta.py:_setup_git():206] setup git done
+2023-03-19 07:37:50,386 DEBUG   HandlerThread:692499 [meta.py:_save_pip():53] save pip
+2023-03-19 07:37:50,389 DEBUG   HandlerThread:692499 [meta.py:_save_pip():67] save pip done
+2023-03-19 07:37:50,389 DEBUG   HandlerThread:692499 [meta.py:_save_conda():74] save conda
+2023-03-19 07:37:50,621 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_created():256] file/dir created: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/requirements.txt
+2023-03-19 07:37:50,621 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_created():256] file/dir created: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/wandb-summary.json
+2023-03-19 07:37:50,621 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_created():256] file/dir created: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/conda-environment.yaml
+2023-03-19 07:37:55,476 DEBUG   HandlerThread:692499 [meta.py:_save_conda():84] save conda done
+2023-03-19 07:37:55,476 DEBUG   HandlerThread:692499 [meta.py:probe():247] probe done
+2023-03-19 07:37:55,622 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:37:55,623 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:37:55,637 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/conda-environment.yaml
+2023-03-19 07:37:55,638 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_created():256] file/dir created: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/output.log
+2023-03-19 07:37:55,639 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_created():256] file/dir created: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/wandb-metadata.json
+2023-03-19 07:37:56,114 DEBUG   SenderThread:692499 [sender.py:send():235] send: telemetry
+2023-03-19 07:37:56,115 DEBUG   SenderThread:692499 [sender.py:send():235] send: telemetry
+2023-03-19 07:37:56,115 DEBUG   SenderThread:692499 [sender.py:send():235] send: config
+2023-03-19 07:37:56,116 DEBUG   SenderThread:692499 [sender.py:send():235] send: config
+2023-03-19 07:37:56,116 DEBUG   SenderThread:692499 [sender.py:send():235] send: files
+2023-03-19 07:37:56,117 INFO    SenderThread:692499 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2023-03-19 07:37:57,296 INFO    Thread-16 :692499 [upload_job.py:push():132] Uploaded file /tmp/tmp821xoh9uwandb/3ny7o8wa-wandb-metadata.json
+2023-03-19 07:38:11,119 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:38:11,121 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:38:19,665 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/config.yaml
+2023-03-19 07:38:22,008 DEBUG   SenderThread:692499 [sender.py:send():235] send: stats
+2023-03-19 07:38:26,633 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:38:26,634 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:38:35,678 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/output.log
+2023-03-19 07:38:42,130 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:38:42,131 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:38:55,469 DEBUG   SenderThread:692499 [sender.py:send():235] send: stats
+2023-03-19 07:38:57,628 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:38:57,629 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:39:13,419 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:39:13,420 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:39:27,721 INFO    Thread-12 :692499 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/liangao/projects/LF-YOLO/wandb/run-20230319_073746-1f1j0k4e/files/output.log
+2023-03-19 07:39:28,978 DEBUG   SenderThread:692499 [sender.py:send():235] send: stats
+2023-03-19 07:39:29,515 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:39:29,516 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:39:45,027 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:39:45,028 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:40:00,531 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:40:00,533 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:40:02,419 DEBUG   SenderThread:692499 [sender.py:send():235] send: stats
+2023-03-19 07:40:16,196 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:40:16,196 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:40:31,701 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:40:31,702 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:40:36,075 DEBUG   SenderThread:692499 [sender.py:send():235] send: stats
+2023-03-19 07:40:47,219 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:40:47,220 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:41:02,691 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:41:02,692 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status
+2023-03-19 07:41:09,518 DEBUG   SenderThread:692499 [sender.py:send():235] send: stats
+2023-03-19 07:41:18,190 DEBUG   HandlerThread:692499 [handler.py:handle_request():141] handle_request: stop_status
+2023-03-19 07:41:18,191 DEBUG   SenderThread:692499 [sender.py:send_request():249] send_request: stop_status

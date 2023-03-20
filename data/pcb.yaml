@@ -1,0 +1,10 @@
+# download: bash data/scripts/get_voc.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./data/pcb/VOC_PCB_train/images
+val: ./data/pcb/VOC_PCB_val/images 
+
+# number of classes
+nc: 7
+
+names: ['back_ground', 'missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']

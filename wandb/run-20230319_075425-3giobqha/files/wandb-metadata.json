@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-136-generic-x86_64-with-glibc2.31",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-03-19T07:54:33.435162",
+    "startedAt": "2023-03-19T07:54:25.404224",
+    "docker": null,
+    "gpu": "NVIDIA A30",
+    "gpu_count": 8,
+    "cpu_count": 128,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/liangao/projects/LF-YOLO/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/lmomoy/LF-YOLO.git",
+        "commit": "a50484e0a71b9b074f981290ee1b5d1a35647ab0"
+    },
+    "email": "liangao@autowise.ai",
+    "root": "/home/liangao/projects/LF-YOLO",
+    "host": "gpuser03",
+    "username": "liangao",
+    "executable": "/home/liangao/anaconda3/envs/cpgnet/bin/python"
+}
